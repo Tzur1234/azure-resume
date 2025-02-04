@@ -9,7 +9,7 @@ const getVisitCount = () => {
     debugger;
     let count = 30;
 
-    fetch(functionApiLocal)
+    fetch(functionApiRemote)
         .then(response => {
             return response.json();
         })
